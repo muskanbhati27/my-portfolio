@@ -1,4 +1,392 @@
 @media (max-width: 1199px) {
+  /* Zero header section */
+  .zero-header_div1 {
+    gap: 1em;
+  }
+  /* Zero header section */
+  /* header section */
+
+  .header-items {
+    justify-content: center;
+    text-align: center;
+    margin: 2em 0;
+  }
+  .partition {
+    padding-right: 0em;
+  }
+  .zero-header_i {
+    width: 1.6em;
+    height: 1.6em;
+  }
+  /* header section */
+
+  /* home section */
+
+  .home_content {
+    bottom: 21em;
+    left: 2em;
+  }
+  .home_images {
+    width: 100%;
+    height: 22em;
+  }
+  .home_content_name {
+    font-size: 2em;
+    font-weight: 550;
+  }
+  .home_content_subname {
+    font-size: 1.8em;
+    font-weight: 550;
+  }
+  .home_content p {
+    width: 24em;
+    margin-top: 1em;
+  }
+  .home_btn_group {
+    margin-top: 1em;
+  }
+  .home_btn {
+    width: 8em;
+    padding: 0.3em;
+    font-size: 1em;
+  }
+
+  /* home section */
+
+  /* about section */
+  .about_section {
+    margin-top: -16em;
+  }
+  .about_div2 {
+    margin-left: 0.2em;
+    margin-top: 0em;
+  }
+  .about_img {
+    object-fit: cover;
+    width: 100%;
+    height: 27em;
+  }
+  .about_div2_subheading {
+    font-size: 1.1em;
+    font-weight: 0;
+  }
+  .about_div2_heading {
+    font-size: 1.8em;
+    font-weight: 550;
+  }
+  .about_div2_desc {
+    margin: 0em 0;
+  }
+  .about_info_div {
+    gap: 0em;
+    font-size: 1em;
+    margin-top: 0em;
+    width: 100%;
+  }
+  .about_info_div1 {
+    width: 40%;
+  }
+  .about_info_div2 {
+    width: 60%;
+  }
+  /* about section */
+
+  /* skills section */
+
+  .skills_section {
+    margin: 2em 0;
+  }
+  .skill_header {
+    margin: 1em 0;
+  }
+  .skill_header h1 {
+    font-size: 2.2em;
+    font-weight: 550;
+  }
+
+  /* skills section */
+  /* services section */
+  .services_header {
+    margin: 3em 0;
+  }
+  .services_header h1 {
+    width: 90%;
+    font-size: 2em;
+    font-weight: 550;
+  }
+  .services_row {
+    margin: 1em 0;
+  }
+
+  .services_help_div {
+    text-align: center;
+    margin: 2em 0;
+  }
+  .services_help_p1 {
+    font-size: 1.1em;
+  }
+  .services_help_p1 a {
+    font-weight: 0;
+  }
+
+  /* services section */
+
+  /* experience section */
+  .exp_card h5 {
+    font-size: 1.4em;
+  }
+  .exp_card p {
+    margin-bottom: 0em;
+  }
+  .exp_row {
+    margin: 0em 0;
+  }
+  .exp_header {
+    margin: 3em 0;
+  }
+  /* experience section */
+  /* contact section */
+  .contact_div1 {
+    padding-left: 0em;
+    padding-right: 0em;
+  }
+  /* contact section */
+  /* footer section */
+  .footer_section_div1 {
+    margin: 1em 0;
+  }
+  .footer_logo {
+    width: 15em;
+    height: 5em;
+    margin-left: -2.5em;
+  }
+
+  /* footer section */
 }
 @media (max-width: 767px) {
+  [data-aos] {
+    opacity: 1 !important;
+    transform: none !important;
+  }
+  /* Zero header section */
+  .zero-header_div2_div {
+    margin-top: 1.4em;
+    justify-content: center;
+    gap: 1.2em;
+  }
+  .zero-header_div1 {
+    flex-direction: column-reverse;
+    align-items: center;
+    justify-content: center;
+  }
+  .partition {
+    border-right: 0em;
+  }
+
+  /* Zero header section */
+  /* header section */
+
+  .logo {
+    object-fit: cover;
+    width: 12em;
+    height: 5em;
+    margin-left: -1.2em;
+  }
+  /* header section */
+
+  /* home section */
+
+  .home_content {
+    bottom: 13.4em;
+    left: 0em;
+  }
+  .home_images {
+    object-fit: cover;
+    width: 100%;
+    height: 24vh;
+  }
+  .home_content_name {
+    font-size: 1em;
+    font-weight: 0;
+  }
+  .home_content_subname {
+    font-size: 1em;
+    font-weight: 0;
+  }
+  .home_content p {
+    width: 16em;
+    margin-top: 0em;
+    font-size: 0.6em;
+  }
+  .wrapper {
+    height: 2.2vh;
+    display: grid;
+    place-items: start;
+  }
+  .home_btn_group {
+    margin-top: 0em;
+  }
+  .home_btn {
+    width: 7em;
+    padding: 0.2em;
+    font-size: 0.8em;
+  }
+
+  /* home section */
+
+  /* about section */
+  .about_section {
+    margin-top: -12em;
+  }
+  .about_div2 {
+    margin-left: 0em;
+    margin-top: 2em;
+  }
+
+  .about_img {
+    height: 20em;
+    width: 16em;
+  }
+
+  .about_div2_heading {
+    font-size: 2em;
+  }
+  .about_div2_desc {
+    margin: 0.4em 0;
+  }
+  .mail{
+    width: 50%;
+    font-size: 0.9em;
+  }
+  .about_info_div {
+    gap: 0.2em;
+    font-size: 1.1em;
+    margin-top: 0.6em;
+  }
+  .about_info_div1 {
+    font-weight: 0;
+  }
+  .about_info_div2 {
+    font-weight: 0;
+  }
+  /* about section */
+
+  /* skills section */
+
+  .skills_section {
+    margin: 2em 0;
+  }
+
+  /* skills section */
+  /* services section */
+
+  .services_header h1 {
+    width: 100%;
+    font-size: 1.8em;
+  }
+
+  /* services section */
+
+  /* project section */
+  .project_header {
+    margin: 0em 0;
+  }
+  .project_header h1 {
+    font-size: 1.8em;
+  }
+  /* project section */
+
+  /* experience section */
+  .exp_card h5 {
+    font-weight: 550;
+  }
+  .exp_card p {
+    margin-bottom: 0em;
+  }
+  .exp_row {
+    margin: 0em 0;
+  }
+  .exp_header {
+    margin: 2em 0;
+  }
+  .exc_container {
+    margin-left: 0px;
+    margin-right: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+  /* experience section */
+  /* contact section */
+  .contact_form_info_div {
+    flex-direction: column;
+  }
+  .first_div {
+    width: 100%;
+  }
+  .form_div {
+    flex-direction: column;
+  }
+  .form_contact {
+    margin: 0em 1em 0em 1em;
+    text-align: center;
+  }
+  /* contact section */
+
+  /* footer section */
+  .footer_section_div1 {
+    margin: 0em 0;
+  }
+  .footer_section h3 {
+    margin-top: 0.2em;
+  }
+  .footer_logo {
+    width: 13em;
+    height: 4em;
+    margin-left: -2.4em;
+  }
+  /* footer section */
+  .nav-tabs {
+    border-bottom: 2px solid #a6acbe;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+  }
+}
+@media (max-width: 375px) {
+  .home_images {
+    height: 28vh;
+  }
+  .home_content {
+    bottom: 11.2em;
+    left: 0em;
+  }
+  .about_info_div {
+    margin-top: 2em;
+    width: 90%;
+  }
+  .home_content_name {
+    margin-bottom: 0em;
+  }
+  .about_section {
+    margin-top: -11em;
+  }
+  .nav-tabs {
+    border-bottom: 2px solid #a6acbe;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+  }
+  .about_img {
+    height: 20em;
+    width: 16em;
+  }
+  .wrapper {
+    height: 3vh;
+    display: grid;
+    place-items: start;
+  }
+
+  .home_content p {
+    margin-bottom: 0.4em;
+  }
 }
